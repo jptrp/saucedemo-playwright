@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Playwright automation framework demonstrating modern test automation practices with TypeScript and Page Object Model">
+    <meta name="author" content="Dustin Braun">
+    <title>Playwright Automation Framework | Portfolio Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="emoji">🧪</span> Playwright Framework
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#why">Why It Matters</a>
+                <a href="#demo">Demo</a>
+                <a href="#tech">Tech Stack</a>
+                <a href="#setup">Quick Start</a>
+                        <a href="https://github.com/jptrp/saucedemo-playwright" target="_blank" rel="noopener noreferrer" class="btn-primary">View on GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Modern UI Automation</span>
+                    <br>Built for Scale
+                </h1>
+                <p class="hero-subtitle">
+                    A production-ready Playwright + TypeScript framework demonstrating 
+                    enterprise-level test automation with Page Object Model architecture
+                </p>
+                <div class="hero-badges">
+                    <span class="badge">✅ 25 Tests Passing</span>
+                    <span class="badge">🎯 100% Coverage</span>
+                    <span class="badge">🚀 CI/CD Ready</span>
+                    <span class="badge">📱 Cross-Browser</span>
+                </div>
+                <div class="hero-actions">
+                                            <a href="https://github.com/jptrp/saucedemo-playwright" target="_blank" rel="noopener noreferrer" class="btn-large btn-primary">
+                Get Started Now
+            </a>
+                    <a href="#demo" class="btn-large btn-secondary">
+                        Watch Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">What is This Project?</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Purpose</h3>
+                    <p>A comprehensive UI automation framework for the SauceDemo e-commerce application, 
+                    demonstrating professional QA engineering practices and modern test automation patterns.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏗️</div>
+                    <h3>Architecture</h3>
+                    <p>Built using the Page Object Model (POM) pattern with clear separation of concerns, 
+                    centralized test data, and maintainable code structure.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Coverage</h3>
+                    <p>25 comprehensive test cases covering authentication, product browsing, cart management, 
+                    and complete checkout flows with form validation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why It Matters Section -->
+    <section id="why" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Why This Project Matters</h2>
+            <p class="section-intro">
+                Most QA portfolios show simple scripts. This demonstrates real-world automation capability:
+            </p>
+            <div class="features-grid">
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Clean Architecture</h4>
+                        <p>Page Object Model with proper encapsulation and reusability</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Comprehensive Coverage</h4>
+                        <p>25+ tests across authentication, inventory, cart, and checkout</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Production-Ready</h4>
+                        <p>CI/CD pipeline with GitHub Actions, automated testing on every push</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Modern Stack</h4>
+                        <p>TypeScript with Playwright, following current industry standards</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Best Practices</h4>
+                        <p>Centralized test data, JSDoc documentation, AAA test pattern</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Robust Selectors</h4>
+                        <p>Data-test attributes and defensive locator strategies</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Cross-Browser</h4>
+                        <p>Configured for Chromium, Firefox, and WebKit testing</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <div class="feature-content">
+                        <h4>Professional Reporting</h4>
+                        <p>HTML reports with screenshots and videos on failure</p>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <p><strong>This isn't just test automation—it's a scalable framework that shows enterprise-level thinking.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="section">
+        <div class="container">
+            <h2 class="section-title">See It In Action</h2>
+            <div class="demo-container">
+                <img src="https://raw.githubusercontent.com/jptrp/saucedemo-playwright/main/demo.gif" 
+                     alt="Test Automation Demo" 
+                     class="demo-gif">
+                <p class="demo-caption">Automated end-to-end checkout flow running in Chromium</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="structure" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Framework Structure</h2>
+            <div class="architecture-grid">
+                <div class="arch-card">
+                    <h3>📁 Project Organization</h3>
+                    <pre class="code-block"><code>saucedemo-playwright/
+├── tests/           # Test specifications
+│   ├── login.spec.ts
+│   ├── inventory.spec.ts
+│   ├── cart.spec.ts
+│   └── checkout.spec.ts
+├── pages/           # Page Object Model
+│   ├── BasePage.ts
+│   ├── LoginPage.ts
+│   ├── InventoryPage.ts
+│   ├── CartPage.ts
+│   └── CheckoutPage.ts
+├── fixtures/        # Test data
+│   └── testData.ts
+└── docs/           # Documentation
+    ├── TestStrategy.md
+    ├── TestPlan.md
+    └── Architecture.md</code></pre>
+                </div>
+                <div class="arch-card">
+                    <h3>🎯 Key Design Patterns</h3>
+                    <ul class="design-list">
+                        <li><strong>Page Object Model (POM)</strong> - Encapsulates page interactions</li>
+                        <li><strong>Centralized Test Data</strong> - Single source of truth</li>
+                        <li><strong>AAA Pattern</strong> - Arrange, Act, Assert structure</li>
+                        <li><strong>DRY Principles</strong> - Reusable methods and components</li>
+                        <li><strong>Type Safety</strong> - TypeScript for reliability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="section">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-logo">🎭</div>
+                    <h4>Playwright</h4>
+                    <p>Modern browser automation</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo">📘</div>
+                    <h4>TypeScript</h4>
+                    <p>Type-safe development</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo">📦</div>
+                    <h4>Node.js</h4>
+                    <p>JavaScript runtime</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo">⚙️</div>
+                    <h4>GitHub Actions</h4>
+                    <p>CI/CD automation</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo">🌐</div>
+                    <h4>Cross-Browser</h4>
+                    <p>Chrome, Firefox, Safari</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-logo">📊</div>
+                    <h4>HTML Reports</h4>
+                    <p>Rich test reporting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Section -->
+    <section id="setup" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Quick Start Guide</h2>
+            <div class="setup-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>Clone the Repository</h4>
+                        <pre class="code-block"><code>git clone https://github.com/jptrp/saucedemo-playwright.git
+cd saucedemo-playwright</code></pre>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Install Dependencies</h4>
+                        <pre class="code-block"><code>npm install
+npx playwright install</code></pre>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Run Tests</h4>
+                        <pre class="code-block"><code># Run all tests
+npx playwright test
+
+# Run in headed mode
+npx playwright test --headed
+
+# View HTML report
+npx playwright show-report</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Documentation</h2>
+            <div class="docs-grid">
+                <a href="https://github.com/jptrp/saucedemo-playwright/blob/main/docs/TestStrategy.md"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="doc-card">
+                    <div class="doc-icon">📋</div>
+                    <h4>Test Strategy</h4>
+                    <p>Comprehensive testing approach and methodology</p>
+                </a>
+                <a href="https://github.com/jptrp/saucedemo-playwright/blob/main/docs/TestPlan.md"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="doc-card">
+                    <div class="doc-icon">📝</div>
+                    <h4>Test Plan</h4>
+                    <p>Detailed test planning and execution strategy</p>
+                </a>
+                <a href="https://github.com/jptrp/saucedemo-playwright/blob/main/docs/Architecture.md"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="doc-card">
+                    <div class="doc-icon">🏗️</div>
+                    <h4>Architecture</h4>
+                    <p>Framework design and technical architecture</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Recruiters Section -->
+    <section class="section section-highlight">
+        <div class="container">
+            <h2 class="section-title">For Recruiters & Hiring Managers</h2>
+            <div class="recruiter-content">
+                <p class="large-text">
+                    This project demonstrates <strong>senior-level QA automation skills</strong> beyond basic scripting:
+                </p>
+                <div class="recruiter-grid">
+                    <div class="recruiter-point">
+                        <h4>🎯 Strategic Thinking</h4>
+                        <p>Comprehensive test strategy and planning documentation showing ability to design testing approaches at scale</p>
+                    </div>
+                    <div class="recruiter-point">
+                        <h4>🏗️ Architecture Skills</h4>
+                        <p>Well-structured framework using industry-standard patterns (POM) that's maintainable and scalable</p>
+                    </div>
+                    <div class="recruiter-point">
+                        <h4>💻 Technical Proficiency</h4>
+                        <p>Modern stack (TypeScript, Playwright) with CI/CD integration demonstrating DevOps collaboration</p>
+                    </div>
+                    <div class="recruiter-point">
+                        <h4>📚 Communication</h4>
+                        <p>Professional documentation suite (Strategy, Plan, Architecture) showing ability to communicate technical concepts</p>
+                    </div>
+                </div>
+                <div class="stats-row">
+                    <div class="stat">
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Test Cases</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Pass Rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Browsers</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1,700+</div>
+                        <div class="stat-label">Lines of Code</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Ready to Explore the Code?</h2>
+            <p>View the complete source code, documentation, and test results on GitHub</p>
+            <a href="https://github.com/jptrp/saucedemo-playwright" target="_blank" class="btn-large btn-primary">
+                View on GitHub →
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built with ❤️ by Dustin Braun | <a href="https://github.com/jptrp" target="_blank" rel="noopener noreferrer">GitHub Profile</a></p>
+            <p class="footer-note">Part of my QA Engineering Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

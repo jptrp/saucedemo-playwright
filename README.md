@@ -44,6 +44,11 @@
 A production-ready UI automation framework built using Playwright, TypeScript, and the Page Object Model (POM) pattern.
 This project demonstrates clean automation architecture, comprehensive test coverage, and CI/CD integration — all aligned with real-world QA Engineer workflows.
 
+📚 **Documentation**:
+- [Test Strategy](./docs/TestStrategy.md) - Comprehensive testing approach and methodology
+- [Test Plan](./docs/TestPlan.md) - Detailed test planning and execution strategy  
+- [Architecture](./docs/Architecture.md) - Framework design and technical architecture
+
 ---
 
 ## 🚀 Tech Stack

@@ -1,7 +1,48 @@
-# 🧪 SauceDemo UI Automation — Playwright + TypeScript
+<div align="center">
+  <h1>🧪 Playwright UI Automation Framework</h1>
+  <strong>Modern, maintainable end-to-end automation using Playwright, TypeScript, and the Page Object Model.</strong>
+  <br><br>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Tests-25_Passing-success?style=for-the-badge" alt="Tests" />
+  <br>
+  <img src="https://img.shields.io/badge/Pattern-Page_Object_Model-blue?style=for-the-badge" alt="POM" />
+  <img src="https://img.shields.io/badge/Coverage-Login_|_Cart_|_Checkout-informational?style=for-the-badge" alt="Coverage" />
+</div>
 
-A modern, maintainable UI automation framework built using Playwright, TypeScript, and the Page Object Model (POM) pattern.
-This project is designed to demonstrate clean automation structure, readable test design, and CI/CD integration — all aligned with real-world QA Engineer workflows.
+---
+
+## 🎯 Why This Project Matters
+
+**Most QA portfolios only show simple scripts. This repo demonstrates real-world automation capability:**
+
+- ✅ **Clean Architecture** - Page Object Model pattern with proper encapsulation and reusability
+- ✅ **Comprehensive Coverage** - 25+ tests across authentication, inventory, cart, and checkout flows
+- ✅ **Production-Ready** - CI/CD pipeline with GitHub Actions, automated testing on every push
+- ✅ **Modern Stack** - TypeScript with Playwright, following current industry standards
+- ✅ **Best Practices** - Centralized test data, JSDoc documentation, AAA test pattern
+- ✅ **Robust Selectors** - Data-test attributes and defensive locator strategies
+- ✅ **Cross-Browser** - Configured for Chromium, Firefox, and WebKit testing
+- ✅ **Professional Reporting** - HTML reports with screenshots and videos on failure
+- ✅ **Maintainable** - DRY principles, clear naming conventions, and comprehensive comments
+
+**This isn't just test automation—it's a scalable framework that shows enterprise-level thinking.**
+
+---
+
+## 🎬 Demo
+
+![Test Execution Demo](./demo.gif)
+
+*Automated end-to-end checkout flow running in Chromium*
+
+---
+
+## 📋 Overview
+
+A production-ready UI automation framework built using Playwright, TypeScript, and the Page Object Model (POM) pattern.
+This project demonstrates clean automation architecture, comprehensive test coverage, and CI/CD integration — all aligned with real-world QA Engineer workflows.
 
 ---
 

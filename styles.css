@@ -158,6 +158,20 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.ci-badge-container {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.ci-badge {
+    border-radius: 4px;
+}
+
+.ci-button-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .hero-actions {
     display: flex;
     gap: 1.5rem;
